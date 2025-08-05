@@ -70,3 +70,4 @@ Again, likely not exhaustive. I can already see that some have been removed (whi
 | [**Monitor Your System with Metricbeat and Elastic Cloud**](https://www.elastic.co/blog/ship-metrics-with-metricbeat-to-hosted-elasticsearch-elastic-cloud)<br>07 September 2017<br>Learn how to create hosted Elasticsearch deployment s, add users, create Kibana dashboards, and ship system metrics with Metricbeat.... | [![Thumbnail](thumbnails/MonitorYourSystemwithMetricbeatandElasticCloud.jpg)](https://www.elastic.co/blog/ship-metrics-with-metricbeat-to-hosted-elasticsearch-elastic-cloud) |
 
 
+# jamiesmithnc
