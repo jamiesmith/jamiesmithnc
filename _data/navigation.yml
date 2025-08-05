@@ -1,0 +1,12 @@
+# main links
+main:
+  - title: "Portfolio"
+    url: /
+  - title: "Resume"
+    url: /resume/
+  - title: "GrandeLatte"
+    url: https://www.grandelatte.com
+    target: _blank
+  - title: "theAstroShed"
+    url: https://www.theastroshed.com
+    target: _blank

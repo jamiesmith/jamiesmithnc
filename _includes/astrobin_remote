@@ -1,0 +1,12 @@
+<figure class="{{ include.class }}">
+  <a href="https://astrob.in/{{ include.astrobin_id }}/0/" target=_blank>
+  {% if include.name %}
+    {{ include.name | remove: "<p>" | remove: "</p>"}}<br>
+  {% endif %}
+  <br>
+      <img src="https://astrob.in/{{ include.astrobin_id }}/0/rawthumb/gallery/get.jpg?insecure">
+  </a>
+  {% if include.caption %}
+    <br><figcaption>{{ include.caption | remove: "<p>" | remove: "</p>" | append: " [click it to see it on astrobin]"}}</figcaption>
+  {% endif %}
+</figure>
