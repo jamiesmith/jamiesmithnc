@@ -249,7 +249,7 @@ portfolio_table_elastic_blogs:
 
 ## Professional Highlights
 
-Here's an example of some of the public-facing collateral that I've put together over the past few years. It's not an exhaustive list, and as time passes some things might have been replaced or removed.
+Here's an example of some of the public-facing professional collateral that I've put together over the past few years. It's not an exhaustive list, and as time passes some things might have been replaced or removed.
 
 {% include portfolio_table id="portfolio_table_highlights" %}
 
