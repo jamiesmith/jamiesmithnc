@@ -1,9 +1,23 @@
 ---
+# NOTE: This is NOT the portfolio but rather a way to test
 title: "Splash Page"
 layout: splash
 permalink: /jrs/
+
+feature_row:
+  - image_path: /assets/images/gallery/flamingstar-spider.jpg
+    alt: flamingstar-spider
+  - image_path: /assets/images/gallery/heart-nebula.jpg
+    alt: heart-nebula
+  - image_path: /assets/images/gallery/horsehead.jpg
+    alt: horsehead
+  - image_path: /assets/images/gallery/elephant-trunk.jpg
+    alt: elephant trunk
 ---
+
 # Jamie Smith's Portfolio
+
+{% include feature_row %}
 
 Here's an example of some of the public-facing collateral that I've put together over the past few years. It's not an exhaustive list, and as time passes some things might have been replaced or removed.
 

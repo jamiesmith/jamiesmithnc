@@ -1,11 +1,22 @@
 ---
 layout: home
+feature_row:
+  - image_path: /assets/images/gallery/flamingstar-spider.jpg
+    alt: flamingstar-spider
+  - image_path: /assets/images/gallery/heart-nebula.jpg
+    alt: heart-nebula
+  - image_path: /assets/images/gallery/horsehead.jpg
+    alt: horsehead
+  - image_path: /assets/images/gallery/elephant-trunk.jpg
+    alt: elephant trunk
 ---
 # Jamie Smith's Portfolio
 
+{% include feature_row %}
+
 Here's an example of some of the public-facing collateral that I've put together over the past few years. It's not an exhaustive list, and as time passes some things might have been replaced or removed.
 
-## Highlights
+## Professional Highlights
 
 |---|---|
 | [**Elastic Observability Video**](https://www.youtube.com/watch?v=uCX24hRBULY/)<br>2021<br>I wrote the script, storyboarded the animations, and narrated this [Elastic Observability Overview video](https://www.youtube.com/watch?v=uCX24hRBULY), which was on the solution landing page for over a year | [![Thumbnail](/assets/images/thumbnails/o11y-intro.jpg)](https://www.youtube.com/watch?v=uCX24hRBULY/) |
