@@ -569,3 +569,20 @@ th, td {
   padding: 15px;
   vertical-align: top;
 }
+
+.equal-table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+.equal-table td {
+  width: 50%;
+  vertical-align: top;
+  padding: 0.5em;
+}
+
+.portfolio-title {
+  font-size: 1.25em;
+  font-weight: bold;
+}

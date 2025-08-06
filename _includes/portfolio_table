@@ -1,0 +1,34 @@
+{% if include.id %}
+  {% assign portfolio_table = page[include.id] %}
+{% else %}
+  {% assign portfolio_table = page.portfolio_table %}
+{% endif %}
+
+
+<table class="equal-table">
+    <tbody>
+        {% for f in portfolio_table %}
+            {% assign mod = forloop.index0 | modulo: 2 %}
+            {% if mod == 0 %}        
+                <tr>
+                    <td>
+                        <a href="{{ f.url }}"><img src="/assets/images/thumbnails/{{f.thumbnail}}" alt="{{f.thumbnail}}"></a>
+                    </td>
+                    <td>
+                        <a href="{{ f.url }}"><span class="portfolio-title">{{ f.title}}</span></a>{% if f.date %}<br>{{ f.date }}<br>{% endif %}<br>{{ f.description | markdownify}}
+                    </td>
+                </tr>
+            {% else %}
+                <tr>
+                    <td>
+                        <a href="{{ f.url }}"><span class="portfolio-title">{{ f.title}}</span></a>{% if f.date %}<br>{{ f.date }}<br>{% endif %}<br>{{ f.description | markdownify}}
+                    </td>
+                    <td>                     
+                        <a href="{{ f.url }}"><img src="/assets/images/thumbnails/{{f.thumbnail}}" alt="{{f.thumbnail}}"></a>
+                    </td>
+                </tr>
+            {% endif %}
+        {% endfor %}
+    </tbody>
+</table>
+
