@@ -236,7 +236,11 @@ portfolio_table_elastic_blogs:
     url: "https://www.elastic.co/blog/ship-metrics-with-metricbeat-to-hosted-elasticsearch-elastic-cloud"
     date: 07 September 2017
     description: "Learn how to create hosted Elasticsearch deployment s, add users, create Kibana dashboards, and ship system metrics with Metricbeat...."
- 
+  - title: The ELK Stack on Apcera
+    thumbnail: dashboard-teaser.png 
+    url: "https://github.com/jamiesmith/apcera-elk-stack/"
+    date: 2016
+    description: "This was possibly the first time the ELK Stack was containerized. The original blog was long gone but I still had the collateral so I put it into my repo for posterity.<br><br>This also helped me land the job at Elastic"
 
 ---
 # Jamie Smith's Portfolio
