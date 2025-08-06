@@ -4,7 +4,7 @@ main:
     url: /
   - title: "Resume"
     url: /resume/
-  - title: "GrandeLatte"
+  - title: "Links"
     url: https://www.grandelatte.com
     target: _blank
   - title: "theAstroShed"
