@@ -12,19 +12,19 @@
             {% if mod == 0 %}        
                 <tr>
                     <td>
-                        <a href="{{ f.url }}"><img src="/assets/images/thumbnails/{{f.thumbnail}}" alt="{{f.thumbnail}}"></a>
+                        <a href="{{ f.url }}" target=_blank><img src="/assets/images/thumbnails/{{f.thumbnail}}" alt="{{f.thumbnail}}"></a>
                     </td>
                     <td>
-                        <a href="{{ f.url }}"><span class="portfolio-title">{{ f.title}}</span></a>{% if f.date %}<br>{{ f.date }}<br>{% endif %}<br>{{ f.description | markdownify}}
+                        <a href="{{ f.url }}" target=_blank><span class="portfolio-title">{{ f.title}}</span></a>{% if f.date %}<br>{{ f.date }}<br>{% endif %}<br>{{ f.description | markdownify}}
                     </td>
                 </tr>
             {% else %}
                 <tr>
                     <td>
-                        <a href="{{ f.url }}"><span class="portfolio-title">{{ f.title}}</span></a>{% if f.date %}<br>{{ f.date }}<br>{% endif %}<br>{{ f.description | markdownify}}
+                        <a href="{{ f.url }}" target=_blank><span class="portfolio-title">{{ f.title}}</span></a>{% if f.date %}<br>{{ f.date }}<br>{% endif %}<br>{{ f.description | markdownify}}
                     </td>
                     <td>                     
-                        <a href="{{ f.url }}"><img src="/assets/images/thumbnails/{{f.thumbnail}}" alt="{{f.thumbnail}}"></a>
+                        <a href="{{ f.url }}" target=_blank><img src="/assets/images/thumbnails/{{f.thumbnail}}" alt="{{f.thumbnail}}"></a>
                     </td>
                 </tr>
             {% endif %}
