@@ -24,16 +24,21 @@ portfolio_table_highlights:
     url: https://www.elastic.co/blog/monitoring-applications-with-elasticsearch-and-elastic-apm
     description: This was the overall top observability blog for both overall hits and time on page) was leveraged across the funnel- for onboarding, nurture flows, CTAs, etc. This blog helped kicked off an extremely successful APM awareness campaign. <br><br>**Outcomes**:<br>- Increased awareness of Elastic Observability as a complete APM solution<br>- Expanded Elastic Cloud (Elastic's managed service) consumption for logging and metrics customers by ~25% year one<br>- Helped to Elastic become recognized as a Visionary in their first appearance of the Gartner APM Magic Quadrant (2021)
     date: January 30, 2019
-  - title: Introduction to logging with the ELK/Elastic Stack
-    thumbnail: intro-to-logging-with-elastic.jpg
-    url: https://www.elastic.co/webinars/intro-to-elk-for-logging
-    date: 2020
-    description: This presentation/webinar was a fun one, focused on how to get started using the Elastic Stack for log and metrics analytics — the first steps on the path to observability.<br><br>I meticulously designed the presentation for this webinar so it could be packaged up for reuse. I presented it multiple times on webinars, and several SEs presented it themselves. It was used in meetups, customer events, and at the demo booths at conferences.<br><br>Talk about value from one piece of content!
+  - title: SnykLaunch April 2023 - Curated container security workflows
+    thumbnail: cbir-webinar.jpg
+    url: https://snyk.io/videos/snyklaunch-april-2023-container/
+    date: April 4, 2023
+    description: "This was a launch webinar for Snyk's Custom Base Image Recommendations, where I served as the SME with the product manager, to help spread awareness of a new feature that extended what was, at the time, Snyk Container's key differentiator. I also wrote a post-launch blog, [SnykLaunch recap: Custom Base Image Recommendations](https://snyk.io/blog/snyklaunch-recap-custom-base-image-recommendations/)"
   - title: Securing Your Modern Software Supply Chain
     thumbnail: snyk-sscs.jpg
     url: https://snyk.io/articles/software-supply-chain-security/
     date: 2022?
     description: This [software supply chain security article](https://snyk.io/articles/software-supply-chain-security/) was used as a landing page in a successful GTM/ TOFU/MOFU campaign
+  - title: Introduction to logging with the ELK/Elastic Stack
+    thumbnail: intro-to-logging-with-elastic.jpg
+    url: https://www.elastic.co/webinars/intro-to-elk-for-logging
+    date: 2020
+    description: This presentation/webinar was a fun one, focused on how to get started using the Elastic Stack for log and metrics analytics — the first steps on the path to observability.<br><br>I meticulously designed the presentation for this webinar so it could be packaged up for reuse. I presented it multiple times on webinars, and several SEs presented it themselves. It was used in meetups, customer events, and at the demo booths at conferences.<br><br>Talk about value from one piece of content!
   - title: Going beyond reachability to prioritize what matters most
     thumbnail: Goingbeyondreachabilitytoprioritizewhatmattersmost.jpg
     url: https://snyk.io/blog/Reachability-for-vuln-prioritization/
